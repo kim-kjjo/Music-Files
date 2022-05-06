@@ -5,10 +5,12 @@
         }
     }
 PartPOneVoiceOne =  \relative c' {
-    \clef "treble" \numericTimeSignature\time 4/4 \key c \major | 
-    
-    % Measure 1
+    \clef "treble" 
+    \numericTimeSignature\time 4/4 
+    \key c \major
     \tempo 4 = 160 
+
+    % Measure 1
     \stemUp c8 [ \stemUp d16 \stemUp e16 ] \stemUp f16 [
     \stemUp g16 \stemUp a16 \stemUp b16 ] \stemUp c16 [ \stemUp b16
     \stemUp a16 \stemUp g16 ] \stemUp f16 [ \stemUp e16 \stemUp d16
