@@ -1,5 +1,5 @@
 
-
+\header { title = \markup "Kohler Op 77 Study 1" }
 
 PartPOneVoiceOne =  \relative c' {
     \clef "treble" 
