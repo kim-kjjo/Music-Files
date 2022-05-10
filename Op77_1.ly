@@ -12,15 +12,15 @@ PartPOneVoiceOne =  \relative c' {
 
     d8 e16 f16 g16 a16 b16 c16 d16 c16 b16 a16 g16 f16 e16 d16
 
-    c8 d16 e16 f16 g16 a16 b16 c16 b16 a16 g16 f16 e16 d16 c16
+    e8 f16 g16 a16 b16 c16 d16 c16 b16 a16 g16 f16 e16 d16 e16
 
-    c8 d16 e16 f16 g16 a16 b16 c16 b16 a16 g16 f16 e16 d16 c16
+    f8 g16 a16 b16 c16 d16 e16 f16 e16 d16 c16 b16 a16 g16 f16
 
-    c8 d16 e16 f16 g16 a16 b16 c16 b16 a16 g16 f16 e16 d16 c16
+    g8 a16 b16 c16 d16 e16 t16 g16 f16 e16 d16 c16 b16 a16 g16
 
-    c8 d16 e16 f16 g16 a16 b16 c16 b16 a16 g16 f16 e16 d16 c16
+    a8 b16 c16 d16 e16 f16 g16 a16 g16 f16 e16 d16 c16 b16 a16
 
-    c8 d16 e16 f16 g16 a16 b16 c16 b16 a16 g16 f16 e16 d16 c16
+    b8 c16 d16 e16 f16 g16 a16 b16 a16 g16 f16 e16 d16 c16 b16
 
     c8 d16 e16 f16 g16 a16 b16 c16 b16 a16 g16 f16 e16 d16 c16
 
