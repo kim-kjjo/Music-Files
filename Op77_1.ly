@@ -51,6 +51,7 @@ PartPOneVoiceOne =  \relative c' {
     
     g8 a16 b16 c16 d16 e16 f16 g16 f16 e16 d16 c16 b16 a16 g16
 
+    \relative c'
     c2 r2
 
     }
