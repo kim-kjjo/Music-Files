@@ -6,7 +6,7 @@
 \header {
   title = "It Don't Mean a Thing"
   composer = "D. Elllington"
-  instrument = "Flute Score"
+  instrument = "(Flute Score)"
 }
 
 global =  {
@@ -14,18 +14,26 @@ global =  {
 	\key bf \major
 	\numericTimeSignature
   \time 4/4
-	\tempo 4 = 200
+	\tempo 4 = 220
 	\set Staff.midiInstrument = "flute)"
 }
 
 music = {
     r4 g'' bf'' g''
-    \relative c' 
-    {
-    d''8 bf8 r8 c8~ c4 r4
-    }
-    r4 g'' bf'' g''
+    \relative c' {d''8 bf8 r8 c8~ c4 r4}
+
+  \relative c' {r4 g'' bf g}
+   \relative c' {d''4. df8~ df4 r4}
+
+  r4 g'' bf'' g''
+  \relative c' {df''8 bf8 r8 c8~ c4 bf8 g8}
+
+r1 r1 r1
+
+
+
 }
+
 
 \score {
 {
@@ -34,5 +42,4 @@ music = {
 }
 
   \layout {}
-  \midi {\tempo 4 = 200}
-}
+  \midi {\tempo 4 = 220}
