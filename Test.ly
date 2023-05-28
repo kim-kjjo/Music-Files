@@ -15,8 +15,8 @@ global =  {
 	\numericTimeSignature
   \time 4/4
 	\tempo 4 = 220
-	\set Staff.midiInstrument = "Flute"
-	\set Staff.instrumentName = "Flute"
+	\set Staff.midiInstrument = "Guitar"
+	\set Staff.instrumentName = "Guitar"
 }
 
 music = {
