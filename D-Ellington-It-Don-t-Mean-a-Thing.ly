@@ -30,11 +30,7 @@ music = {
   \relative c' {df''8 bf8 r8 c8~ c4 bf8 g8}
 
 r1 r1 r1
-
-
-
 }
-
 
 \score {
 {
@@ -42,5 +38,5 @@ r1 r1 r1
   \music
 }
 
-  \layout {}
-  \midi {\tempo 4 = 220}}
+ \layout {}
+ \midi {\tempo 4 = 220}}
