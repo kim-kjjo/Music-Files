@@ -4,9 +4,9 @@
 \include "english.ly"
 
 \header {
-  title = "It Don't Mean a Thing"
-  composer = "D. Ellington"
-  instrument = "(Flute Score)"
+  title = "Test"
+  composer = "Kim"
+  instrument = "(Guitar)"
 }
 
 global =  {
