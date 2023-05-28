@@ -1,4 +1,4 @@
-\version "2.24.0"
+%\version "2.24.0"
 #(set-global-staff-size 20)
 #(set-default-paper-size "letter")
 \include "english.ly"
