@@ -30,7 +30,6 @@ music = {
 }
 
 \score {
-{
   \global
   \music
 }
