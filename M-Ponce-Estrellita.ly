@@ -1,29 +1,33 @@
+\version "2.22.1"
+\include "english.ly"
 \include "articulate.ly"
-\version "2.24"
+
 #(set-global-staff-size 25)
 #(set-default-paper-size "letter")
-\include "english.ly"
 
-\header {
+\header 
+{
   title = "Estrellita"
-  %subtitle = "A major"
   instrument = "Guitar"
   composer = "Manuel Ponce"
 }
 
-global =  {
+global =  
+{
   \key a \major
   \numericTimeSignature
   \time 2/4
   % Andante is 72 to 76 bpm
   \tempo "Andante" 4 = 76
-  %\set Staff.midiInstrument = "acoustic guitar (nylon)"
+  \set Staff.midiInstrument = "acoustic grand"
   \set Staff.instrumentName = "Guitar"
 }
+
 voltaFirst = \markup \text "1"
 voltaSecond = \markup \text "2"
 
-guitar = {
+guitar = 
+{
   \global
   \clef treble
   \override Score.BarNumber.break-visibility = ##(#t #t #t)
@@ -58,7 +62,8 @@ guitar = {
     <a cs' a'>8 e'8 cs'8 e8 |
   }
 
-  \alternative {
+  \alternative 
+  {
     {
       \set Score.repeatCommands = #(list(list 'volta voltaFirst))
       % Bar 17
@@ -93,7 +98,6 @@ guitar = {
   <a gs' cs''>8 <b d''>8 <e d' gs' fs''> r16 <e d ' gs'>16|
   <a cs' a'>4 e'4|
   <a e' cs'' a''>4 r4
-
 }
 
 % PDF SCORE
@@ -104,7 +108,6 @@ guitar = {
 
 % MIDI SCORE
 \score {
-
   \unfoldRepeats {\guitar}
   \midi{}
 }
