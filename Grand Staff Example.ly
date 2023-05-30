@@ -1,3 +1,7 @@
+\version "2.22.1"
+\include "english.ly"
+\include "articulate.ly"
+
 upper = \relative c'' {
   \clef treble
   \key c \major
