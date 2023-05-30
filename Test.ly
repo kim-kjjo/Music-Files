@@ -1,7 +1,9 @@
-%\version "2.24.0"
+\version "2.22.1"
+\include "english.ly"
+\include "articulate.ly"
+
 #(set-global-staff-size 20)
 #(set-default-paper-size "letter")
-\include "english.ly"
 
 \header {
   title = "Test"
